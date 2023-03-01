@@ -1,0 +1,513 @@
+* {
+  box-sizing: border-box;
+}
+
+body html {
+  height: 100px;
+  width: 100%;
+}
+
+/*Header Start*/
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  background: #E3E6F3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.header img {
+  height: 80px;
+}
+
+.header h4 {
+  font-size: 20px;
+  color: red;
+  font-family: sans-serif;
+}
+
+.header input {
+  font-family: sans-serif;
+}
+
+.header span {
+  color: orange;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  font-family: sans-serif;
+  transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: white;
+  background-color: blueviolet;
+  padding: 10px;
+}
+
+/* Shop */
+
+.Shop {
+margin-left: 5%;
+padding: 25px 0px 25px 100px;
+}
+
+.Shop h3 {
+font-family: sans-serif;
+font-size: 30px;
+}
+
+/* BANNER 1 AREA */
+
+.banner1 {
+  height: 70vh; 
+  background-color: orange;
+  background-image: url(../images/banner\ 1.jpg);
+  background-size: cover!important;
+  background-position: center;
+}
+
+.banner1 {
+overflow: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.banner1 h1 {
+text-align: center;
+color: rgb(0, 173, 46);
+font-size: 5vh;
+font-family: "Sofia", sans-serif;
+font-weight: bolder!important;
+text-shadow: 5px 5px 5px #000000;
+}
+
+.bundle {
+width: 20%;
+float: left;
+margin-left: 20%;
+margin-top: 4vh;
+}
+
+.bundle:nth-child(1),
+.bundle:nth-child(3) {
+margin-right: 10%;
+}
+
+.bundle:nth-child(1),
+.bundle:nth-child(2) {
+margin-bottom: 1%;
+}
+
+.bundle img {
+border-radius: 15%;
+height: 30vh;
+width: 27vh;
+}
+.bundle img:hover {
+  box-shadow: 10px 10px 54px rgba(134, 2, 2, 0.4);
+}
+
+.bundle a {
+width: 80%;
+color: #c7a17a;
+font-size: 25px;
+text-decoration: none;
+}
+
+.bundle p {
+color: white;
+font-size: small;
+}
+/* END of BANNER and BUNDLE AREA */
+
+/* PRODUCT PIES */
+/* Merchandise Area */
+
+.merchandise {
+text-align: left;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+.merchandise h2 {
+color:#312a26;
+font-family: "Raleway", sans-serif;
+font-size: 38px;
+}
+
+.merchandise hr {
+color: #c7a17a;
+border-top: solid 3.5px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-bottom: 5%;
+}
+
+/* MERCHANDISE BOX */
+
+.merchandise-box {
+color: #312a26;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+/* PRODUCTS */
+
+.product {
+display: inline-block;
+margin: auto;
+margin-bottom: 3vh;
+}
+
+.product a {
+color: #c7a17a;
+font-size: medium;
+text-decoration: none;
+}
+
+.product h3 {
+font-size: medium;
+color: black;
+}
+
+.product img {
+width: 45vh;
+height: 35vh;
+}
+.product img:nth-child(1),
+.product img:nth-child(2),
+.product img:nth-child(3) {
+margin-right: 5px;
+}
+.product img:hover {
+box-shadow: 10px 10px 54px rgba(134, 2, 2, 0.4);
+}
+
+.product img:hover {
+  box-shadow: 10px 10px 54px rgba(134, 2, 2, 0.4);
+}
+
+.product:nth-child(1), 
+.product:nth-child(4), 
+.product:nth-child(7) {
+margin-left: 10%;
+}
+.product button, 
+.product-drinks button, 
+.smoothie-drinks button, 
+.family button{
+  display: flex;
+  float: right;
+  margin-top: -15px;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.product button:hover,
+.product-drinks button:hover, 
+.smoothie-drinks button:hover, 
+.family button:hover {
+  background-color: darkmagenta;
+}
+
+/* END of PRODUCT PIES */
+
+/* Merchandise DRINKS Area */
+
+.merchandise-drinks {
+text-align: left;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto; 
+}
+
+.merchandise-drinks h2 {
+color:#312a26;
+font-family: "Raleway", sans-serif;
+font-size: 38px;
+}
+
+.merchandise-drinks hr {
+color: #c7a17a;
+border-top: solid 3.5px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-bottom: 5%;
+}
+
+/* MERCHANDISE BOX DRINKS */
+
+.merchandise-box-drinks {
+color: #312a26;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+/* PRODUCTS DRINKS */
+
+.product-drinks {
+display: inline-block;
+margin: auto;
+margin-bottom: 3vh;
+}
+
+.product-drinks a {
+color: #c7a17a;
+font-size: medium;
+text-decoration: none;
+}
+
+.product-drinks h3 {
+font-size: medium;
+}
+
+.product-drinks img {
+width: 45vh;
+height: 35vh;
+}
+.product-drinks img:nth-child(1),
+.product-drinks img:nth-child(2),
+.product-drinks img:nth-child(3) {
+margin-right: 5px;
+}
+
+.product-drinks:nth-child(1) {
+margin-left: 10%;
+}
+/* END of MERCHANDISE DRINKS AREA */
+
+
+/* Smoothie Drinks */
+.smoothie {
+text-align: left;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+.smoothie h2 {
+color:#312a26;
+font-family: "Raleway", sans-serif;
+font-size: 38px;
+}
+
+.smoothie span {
+color: #c7a17a;
+}
+
+.smoothie hr {
+color: #c7a17a;
+border-top: solid 3.5px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+/* SMOOTHIE BOX */
+.smoothie-box {
+color: #312a26;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+/* SMOOTHIE DRINKS BOX AREA */
+.smoothie-drinks {
+display: inline-block;
+margin: auto;
+margin-bottom: 3vh;
+}
+
+.smoothie-drinks a {
+color: #c7a17a;
+font-size: medium;
+text-decoration: none;
+}
+
+.smoothie-drinks h3 {
+font-size: medium;
+}
+
+.smoothie-drinks img {
+width: 45vh;
+height: 35vh;
+}
+.smoothie-drinks img:nth-child(1),
+.smoothie-drinks img:nth-child(2),
+.smoothie-drinks img:nth-child(3) {
+margin-right: 5px;
+}
+
+.smoothie-drinks:nth-child(1),
+.smoothie-drinks:nth-child(4),
+.smoothie-drinks:nth-child(7) {
+margin-left: 10%;
+}
+/* END of SMOOTHIE AREA */
+
+
+/* FAMILY SIZE PIES */
+.family-header {
+text-align: left;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+.family-header h2 {
+color:#312a26;
+font-family: "Raleway", sans-serif;
+font-size: 38px;
+}
+
+.family-header hr {
+color: #c7a17a;
+border-top: solid 3.5px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-bottom: 5%;
+}
+
+/* MERCHANDISE BOX DRINKS */
+
+.family-box {
+color: #312a26;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+}
+
+/* PRODUCTS DRINKS */
+
+.family {
+display: inline-block;
+margin: auto;
+margin-bottom: 3vh;
+}
+
+.family a {
+color: #c7a17a;
+font-size: medium;
+text-decoration: none;
+}
+
+.family h3 {
+font-size: medium;
+}
+
+.family img {
+width: 45vh;
+height: 35vh;
+}
+.family img:nth-child(1),
+.family img:nth-child(2),
+.family img:nth-child(3) {
+margin-right: 5px;
+}
+
+.family:nth-child(1) {
+margin-left: 10%;
+}
+
+/*Footer*/
+
+.info1 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 80px;
+background: #E3E6F3;
+}
+
+.info1 p {
+font-family: sans-serif;
+}
+
+.info1 a {
+color: white;
+background-color: #312a26;
+padding: 10px;
+text-decoration: none;
+}
+
+.info1 a:hover {
+background-color: green;
+transition: 0.3s;
+}
+
+.info2 {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 30px 80px;
+background: #312a26;
+}
+
+.info2 h4 {
+font-size: 20px;
+color: red;
+font-family: sans-serif;
+}
+
+.info2 span {
+color: orange;
+}
+
+.info2 p {
+font-family: sans-serif;
+font-size: 15px;
+color: white;
+font-weight: 300;
+}
+
+.info2 a {
+text-decoration: none;
+color:  white;
+padding: 20px 20px;
+}
+
+.info2 a:hover {
+transition: 0.5s;
+background-color: blueviolet;
+color: red;
+}

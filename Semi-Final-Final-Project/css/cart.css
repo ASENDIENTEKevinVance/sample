@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body html {
+    height: 100px;
+    width: 100%;
+}
+
+/*Header Start*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.header img {
+    height: 80px;
+}
+
+.header h4 {
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.header input {
+    font-family: sans-serif;
+}
+
+.header span {
+    color: orange;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+
+
+/* ----- Cart Area ------ */
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.products-container span {
+    background-color: black;
+    margin: 0 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.products-container .remove {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 1px 6px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    float: left;
+    margin-left: -190px;
+}
+
+
+.products-container i {
+    font-size: small;
+    font-style: normal;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;  
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.quantity {
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.total {
+    width: 10%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.products {
+    width: 50%;
+    display:table-cell;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+
+.products img {
+    width: 0;
+    margin-left: -160px;
+    float: left;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.allProducts {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+/* Footer */
+
+.info1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #E3E6F3;
+}
+
+.info1 p {
+    font-family: sans-serif;
+}
+
+.info1 a {
+    color: white;
+    background-color: #312a26;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.info1 a:hover {
+    background-color: green;
+    transition: 0.3s;
+}
+
+.info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #312a26;
+}
+
+.info2 h4 {
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.info2 span {
+    color: orange;
+}
+
+.info2 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.info2 a {
+    text-decoration: none;
+    color:  white;
+    padding: 20px 20px;
+}
+
+.info2 a:hover {
+    transition: 0.5s;
+    background-color: blueviolet;
+    color: red;
+}

@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+body html {
+    height: 100px;
+    width: 100%;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+/*Header Start*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.header img {
+    height: 80px;
+}
+
+.header h4 {
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.header input {
+    font-family: sans-serif;
+}
+
+.header span {
+    color: orange;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    font-family: sans-serif;
+    transition: 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+/* Title */
+
+.title {
+    margin-left: 10%;
+    padding: 25px 0px 25px 100px;
+}
+
+.title h3 {
+    font-family: sans-serif;
+}
+
+/* Content */
+
+.description {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.description h1 {
+    padding: 30px;
+}
+
+.description p {
+    text-align: justify;
+    text-indent: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+.footer h1 {
+    font-weight: 900!important;
+}
+
+.developer1 {
+    margin-top: 50px;
+}
+
+.developer1 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.developer1, .developer, .developer2, h2 p {
+    font-family: "Fira Code",sans-serif;
+    padding: 0;
+}
+
+.developer1 h2 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+/* .developer1 p {
+    font-family: sans-serif;
+} */
+
+.developer {
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.developer img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+.developer h2 {
+    margin-left: 160px;
+}
+
+.developer h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.developer p {
+    margin-left: 225px;
+}
+
+.developer2 {
+    margin-top: 50px;
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+.footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.developer2 img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+}
+
+.developer2 h2 {
+    margin-left: 200px;
+}
+
+.developer2 h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.developer2 p {
+    margin-left: 225px;
+}
+
+/*Footer*/
+
+.info1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #E3E6F3;
+}
+
+.info1 p {
+    font-family: sans-serif;
+}
+
+.info1 a {
+    color: white;
+    background-color: #312a26;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.info1 a:hover {
+    background-color: green;
+    transition: 0.3s;
+}
+
+.info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background: #312a26;
+}
+
+.info2 h4 {
+    font-size: 20px;
+    color: red;
+    font-family: sans-serif;
+}
+
+.info2 span {
+    color: orange;
+}
+
+.info2 p {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
+
+.info2 a {
+    text-decoration: none;
+    color:  white;
+    padding: 20px 20px;
+}
+
+.info2 a:hover {
+    transition: 0.5s;
+    background-color: blueviolet;
+    color: red;
+}
